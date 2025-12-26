@@ -1,0 +1,5 @@
+com\hrs\student\registration\ShowAllServlet.class
+com\hrs\student\registration\DBConnection.class
+com\hrs\student\registration\JakartaRestConfiguration.class
+com\hrs\student\registration\RegisterServlet.class
+com\hrs\student\registration\resources\JakartaEE8Resource.class

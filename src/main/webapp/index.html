@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration</title>
+    <style>
+        :root { --background: #ffffff; --foreground: #09090b; --primary: #18181b; --primary-foreground: #fafafa; --border: #e4e4e7; --radius: 0.5rem; }
+        body { font-family: -apple-system, sans-serif; background: var(--background); margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; }
+        .nav { position: absolute; top: 20px; right: 20px; }
+        .btn-ghost { padding: 8px 16px; border: 1px solid var(--border); border-radius: var(--radius); text-decoration: none; color: var(--foreground); font-size: 14px; font-weight: 500; }
+        .card { width: 350px; padding: 32px; border: 1px solid var(--border); border-radius: var(--radius); box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        h2 { margin: 0 0 8px 0; font-size: 24px; font-weight: 600; }
+        p { color: #71717a; font-size: 14px; margin-bottom: 24px; }
+        label { display: block; font-size: 14px; font-weight: 500; margin-bottom: 8px; }
+        input { width: 100%; padding: 8px 12px; margin-bottom: 16px; border: 1px solid var(--border); border-radius: 4px; box-sizing: border-box; }
+        .btn-submit { width: 100%; background: var(--primary); color: var(--primary-foreground); padding: 10px; border: none; border-radius: var(--radius); cursor: pointer; font-weight: 500; }
+    </style>
+</head>
+<body>
+    <div class="nav"><a href="show_all" class="btn-ghost">Show all students</a></div>
+    <div class="card">
+        <h2>Register Student</h2>
+        <p>Enter details to add a new record.</p>
+        <form action="register" method="POST">
+            <label>Full Name</label>
+            <input type="text" name="name" required>
+            <label>Email Address</label>
+            <input type="email" name="email" required>
+            <label>Enrollment Year</label>
+            <input type="number" name="year" required>
+            <button type="submit" class="btn-submit">Register Student</button>
+        </form>
+    </div>
+</body>
+</html>
