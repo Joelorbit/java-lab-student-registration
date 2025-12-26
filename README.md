@@ -2,6 +2,11 @@
 
 A modern, full-stack Java Web Application built with **Servlets**, **JDBC**, and **MySQL**. This project follows the **MVC** architecture to handle student registration and data persistence.
 
+<img width="1903" height="886" alt="Screenshot 2025-12-27 001323" src="https://github.com/user-attachments/assets/19c33c85-7dca-4192-9ada-95c2c7a4ceb0" />
+
+<img width="1912" height="894" alt="image" src="https://github.com/user-attachments/assets/7ab1fc5a-a98b-4da5-8f78-ebef7de8e122" />
+
+
 ## 🚀 How to Run the Project
 
 ### 1. Database Setup
