@@ -1,6 +1,6 @@
 # 🎓 Student Registration servlet web-app.
 
-A modern, full-stack Java Web Application built with **Servlets**, **JDBC**, and **MySQL**. This project follows the **MVC** architecture to handle student registration and data persistence.
+A modern, full-stack Java Web Application built with **Servlets**, **JDBC**, and **MySQL**. This project adheres to the **MVC** architecture to manage student registration and data persistence.
 
 <img width="1903" height="886" alt="Screenshot 2025-12-27 001323" src="https://github.com/user-attachments/assets/19c33c85-7dca-4192-9ada-95c2c7a4ceb0" />
 
