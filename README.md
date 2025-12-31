@@ -1,10 +1,11 @@
-# 🎓 Student Registration System
+# 🎓 Student Registration servlet web-app.
 
 A modern, full-stack Java Web Application built with **Servlets**, **JDBC**, and **MySQL**. This project follows the **MVC** architecture to handle student registration and data persistence.
 
 <img width="1903" height="886" alt="Screenshot 2025-12-27 001323" src="https://github.com/user-attachments/assets/19c33c85-7dca-4192-9ada-95c2c7a4ceb0" />
 
-<img width="1912" height="894" alt="image" src="https://github.com/user-attachments/assets/7ab1fc5a-a98b-4da5-8f78-ebef7de8e122" />
+<img width="1554" height="809" alt="image" src="https://github.com/user-attachments/assets/00120283-7d1e-4dc9-bcf1-a510cdf2dbec" />
+
 
 ## 🚀 How to Run the Project
 
@@ -60,6 +61,7 @@ We updated the `pom.xml` to fix a common "API Incompatibility" error caused by u
 - **Modern UI**: Designed with a **shadcn/ui** aesthetic using high-quality system fonts and minimalist components.
 - **Offline Ready**: All CSS is inline; no external internet connection (like Tailwind CDN or Google Fonts) is required.
 - **Auto-Redirect**: Upon successful registration, the user is immediately taken to the student list.
+- **Delete-students**: On the show all tab, the user can remove registered students.
 
 ---
 
@@ -69,7 +71,7 @@ We updated the `pom.xml` to fix a common "API Incompatibility" error caused by u
 - `RegisterServlet.java`: Handles `POST /register` (Validation & Insertion).
 - `ShowAllServlet.java`: Handles `GET /show_all` (Retrieval & Table Display).
 - `DBConnection.java`: Centralized JDBC connection management.
-- `DeleteServlet.java`: Handles remove icon in the show student tab.
+- `DeleteServlet.java`: Handles the removal icon in the show student tab.
 - `pom.xml`: Project dependencies (MySQL Connector & Maven Plugins).
 
 ---
