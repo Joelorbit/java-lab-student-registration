@@ -6,7 +6,6 @@ A modern, full-stack Java Web Application built with **Servlets**, **JDBC**, and
 
 <img width="1912" height="894" alt="image" src="https://github.com/user-attachments/assets/7ab1fc5a-a98b-4da5-8f78-ebef7de8e122" />
 
-
 ## 🚀 How to Run the Project
 
 ### 1. Database Setup
@@ -70,6 +69,7 @@ We updated the `pom.xml` to fix a common "API Incompatibility" error caused by u
 - `RegisterServlet.java`: Handles `POST /register` (Validation & Insertion).
 - `ShowAllServlet.java`: Handles `GET /show_all` (Retrieval & Table Display).
 - `DBConnection.java`: Centralized JDBC connection management.
+- `DeleteServlet.java`: Handles remove icon in the show student tab.
 - `pom.xml`: Project dependencies (MySQL Connector & Maven Plugins).
 
 ---
