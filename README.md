@@ -1,4 +1,4 @@
-# 🎓 Student Registration servlet web-app.
+# Student Registration servlet web-app.
 
 A modern, full-stack Java Web Application built with **Servlets**, **JDBC**, and **MySQL**. This project adheres to the **MVC** architecture to manage student registration and data persistence.
 
@@ -8,7 +8,7 @@ A modern, full-stack Java Web Application built with **Servlets**, **JDBC**, and
 
 
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 ### 1. Database Setup
 
@@ -56,7 +56,7 @@ We updated the `pom.xml` to fix a common "API Incompatibility" error caused by u
 
 ---
 
-## 🛠️ Key Features
+##  Key Features
 
 - **Duplicate Prevention**: The system checks the database for existing emails before saving, preventing primary key/unique constraint crashes.
 - **Modern UI**: Designed with a **shadcn/ui** aesthetic using high-quality system fonts and minimalist components.
@@ -66,7 +66,7 @@ We updated the `pom.xml` to fix a common "API Incompatibility" error caused by u
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 - `index.html`: The modern registration form.
 - `RegisterServlet.java`: Handles `POST /register` (Validation & Insertion).
@@ -74,11 +74,3 @@ We updated the `pom.xml` to fix a common "API Incompatibility" error caused by u
 - `DBConnection.java`: Centralized JDBC connection management.
 - `DeleteServlet.java`: Handles the removal icon in the show student tab.
 - `pom.xml`: Project dependencies (MySQL Connector & Maven Plugins).
-
----
-
-### 📝 Note for Examiners
-
-If you encounter a `SQLSyntaxErrorException`, please ensure the database `student_registration` has been created. If the page doesn't load, ensure the Tomcat server is started in the NetBeans **Services** tab.
-
----
